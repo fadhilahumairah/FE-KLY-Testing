@@ -1,0 +1,33 @@
+.layout {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.background {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.content {
+  position: relative;
+  background: white;
+  padding: 10px 50px;
+  z-index: 2;
+  width: 400px;
+  text-align: center;
+}
+
+.close {
+  right: 15px;
+}
