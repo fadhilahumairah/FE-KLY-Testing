@@ -8,29 +8,16 @@ body {
   margin: 10px;
 }
 
-.time {
-  color: grey;
-  margin: 5px 0px;
-}
-
-.wrapper {
-  padding: 15px;
-  border: 2px solid black;
-  border-radius: 10px;
-}
-.title {
-  font-family: "Prompt";
-  font-style: italic;
-  font-size: 20px;
-  margin-bottom: 5px;
-}
-
 .trendings {
   display: flex;
-  flex-wrap: wrap;
-  padding: 5px 0;
   flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-around;
   gap: 10px;
   text-align: left;
-  align-content: space-around;
+  padding: 5px 0;
+}
+
+.trendings .tag {
+  font-weight: bold;
 }
