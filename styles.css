@@ -11,6 +11,7 @@ body {
 .time {
   color: grey;
   margin: 5px 0px;
+  font-size: 12px;
 }
 
 .wrapper {
@@ -21,13 +22,14 @@ body {
 .title {
   font-family: "Prompt";
   font-style: italic;
-  font-size: 20px;
+  font-size: 16px;
   margin-bottom: 5px;
 }
 
 .trendings {
   display: flex;
   flex-wrap: wrap;
+  font-size: 14px;
   padding: 5px 0;
   flex-direction: row;
   gap: 10px;
