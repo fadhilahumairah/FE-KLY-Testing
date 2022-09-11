@@ -16,6 +16,7 @@ body {
   gap: 10px;
   text-align: left;
   padding: 5px 0;
+  font-size: 14px;
 }
 
 .trendings .tag {
