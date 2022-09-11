@@ -20,7 +20,7 @@ body {
   display: flex;
   flex-direction: column;
   padding: 0px 10px;
-  width: auto;
+  width: 200px;
 }
 
 .desc {
